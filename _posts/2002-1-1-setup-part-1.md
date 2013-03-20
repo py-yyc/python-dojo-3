@@ -4,7 +4,7 @@ title: "Installation/Setup - part 1"
 published: true
 data:
   x: 2000
-  y: 0
+  y: 1000
 ---
 
 I recommend you make and use a virtual environment:

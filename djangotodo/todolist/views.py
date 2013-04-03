@@ -10,8 +10,8 @@ def list(request):
 		form = TaskForm(request.POST)
 		if form.is_valid():
 			form.save()
-		# make sure to return use a clean form for the resulting page
-		form = TaskForm()
+			# make sure to return use a clean form for the resulting page
+			form = TaskForm()
 
 	else:
 		raise PermissionDenied('Only GET and POST methods are allowed')

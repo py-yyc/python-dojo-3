@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath ./djangotodo djangotodo.djangotodo.wsgi
+web: gunicorn --pythonpath ./djangotodo djangotodo.wsgi
